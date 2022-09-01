@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    margin: auto 0;
+    width: 100%;
+}
+
+body {
+    background: linear-gradient(to right, #ff6400, #32c8ff);
+}
+
+h1 {
+    margin-block-start: 15vh;
+    margin-block-end: 1em;
+}
+
+#random {
+    margin-block-start: 1em;
+}
+
+h2 {
+    margin-block-start: 1.5em;
+    margin-block-end: .75em;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#copy {
+    margin: 0 0 1em 0;
+}
+
+h3 {
+    text-transform: lowercase;
+    margin: 0 0 0 1em;
+}
